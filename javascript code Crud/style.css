@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn
+{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body
+{
+    margin :0 auto;
+}
+p{
+    font-size: 6.2rem;
+}
+img
+{
+    width:6.2rem;
+    height: 6.2rem;
+}
+.heading
+{
+   
+    height: 8rem;
+    width:100%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: antiquewhite;
+}
+/* table
+{
+    border:2px solid black;
+} */
+.user-info
+{
+    top:6.5rem;
+    right:0rem;
+ 
+    position: absolute;
+    width: 4.4rem;
+    height: 4.4rem;
+    box-shadow: 0 1.2rem 2.4rem rgba(255, 255, 255, 0.5);
+    background-color: red
+
+}
+.login ul{
+    list-style: none;
+}
+.login
+{
+    display: none;
+}
+main
+{
+    height:100vh;
+}
+.icon
+{
+    position: relative;
+
+    width:4.2rem;
+    height: 4.2rem;
+}
+
+.nav
+{
+    background-color: #676767;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+    text-align: center;
+}
+.topic
+{
+    text-align: center;
+    background-color: blanchedalmond;  
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content
+{
+    padding: 2.4rem 1.2rem;
+    font-size: 2.4rem;
+    line-height: 2.1;
+    letter-spacing: 0.1rem;
+}
+.form
+{
+    box-shadow: 0 1.2rem 2.4 rem rgba(255, 255, 255, 0.5);
+}
+
+label
+{
+    display: block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.add
+{
+    margin-left: 100rem;
+    display: block;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+.form-table
+{
+    display:none;
+    position: absolute;
+    box-shadow: 0 1rem 2.4rem;
+    border-radius: 9px;
+    font-size: 1.2rem;
+    /* right:0;
+    top:-1.2rem; */
+    right: 5.4rem;
+    top: 17.2rem;
+    /* width:100vh;  */
+    /* height: 100vh; */
+  
+}  
+.cancel
+{
+    border: none;
+    margin-left: 32rem;
+}
+
+.icon1
+{
+    width:4.2rem;
+    height: 4.2rem;
+    position: relative;
+    margin-left: auto;
+    border: none;
+}
+.onupdate
+{
+    display: none;
+}
+.form-table1
+{
+    display: none;
+}

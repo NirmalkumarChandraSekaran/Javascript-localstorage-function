@@ -1,0 +1,109 @@
+<!DOC html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="queries.css">
+    <script defer src="./js.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body onload="readdata1()" >
+    <header class="heading main-logo">
+        <img src="./img/si_systems_logo.jfif"/>
+        <p>Si SYSTEM <span id="result"></span> </p>
+        <button class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            </svg>
+        </button>
+
+          <div class="login user-info">
+        
+           <ul>
+            <li><span id="result1"></span></li>
+            <li>password</li>
+            <li>logout</li>
+           </ul> 
+          </div>
+    </header>
+    <main>
+        <section class="main-section">
+            <div class="nav">
+                <div class="topic">heading 1</div>
+                <div class="topic">heading 2</div>
+                <div class="topic">heading 3</div>
+                <div class="topic">heading 4</div>
+                <div class="topic">heading 5</div>
+                <div class="topic">heading 6</div>
+                <div class="topic">heading 7</div>
+            </div>
+            <div class="content">
+               <button id="add-user" class="add">Add user</button>
+           
+               <form action="" class="form-table">
+                <button class="cancel"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  </button>
+                <label for="new-email">Enter the email</label>
+                <input  id="email1" placeholder="enter the email" />
+                <label for="name">Enter the Name</label>
+                <input type="text" id="name1" placeholder="enter the name" />
+                <button class="onadd" type="submit" >Submit</button>
+               
+               </form>
+               <form action="" class="form-table1">
+                <button class="cancel"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  </button>
+                <label for="new-email">Enter the email</label>
+                <input  id="uemail1" placeholder="enter the email" />
+                <label for="name">Enter the Name</label>
+                <input type="text" id="uname1" placeholder="enter the name" />
+                <button class="onupdate" id="onupdate" type="submit" onclick="update()">update</button>
+               
+               </form>
+               <div class="row mt-5">
+                 <div class="col-12">
+            
+                    <table class="table table-content">
+                        <thead>
+                            <th>useremail</th>
+                            <th>name</th>
+                        </thead>
+                        <tbody >
+                            <tr>
+                                <td><span id="result2"></span></td>
+                                <td><span id="result3"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <table class="table table-bordered" id="curdtable">
+                        <thead>
+                            <th>name</th>
+                            <th></th>
+                            <th>useremail</th>
+                            <th></th>
+                            <th>index</th>
+                            <th></th>
+                            <th>Action</th>
+                        </thead>
+                        <tbody id="bodydata" >
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
